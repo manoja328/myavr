@@ -1,0 +1,147 @@
+     1: #define _LEGACY_HEADERS
+     2: #include <htc.h>
+     3: __CONFIG(HS & WDTDIS & PWRTEN & BORDIS & LVPDIS);
+     4: #define data PORTB
+     5: #define RS RD0
+     6: #define EN RD1
+     7: 
+     8: 
+     9: 
+    10: int sec=0;        
+    11: int min=9;
+    12: int hour=0;
+    13: 
+    14: 
+    15: void delay_ms(int n )
+    16: {
+    17:         TMR1H=0xEC;        // EC77H=60535d
+    18:         TMR1L=0x77;
+    19:         T1CKPS1=0;
+    20:         T1CKPS0=0;
+    21:         TMR1CS=0;
+    22:         TMR1IF=0;
+    23:         TMR1ON=1;
+    24:            while(n>0)
+    25:            {
+    26:                 while(!TMR1IF)  { }
+    27:                 TMR1IF=0;
+    28:                 TMR1H=0xEC;        
+    29:                 TMR1L=0x77;
+    30:                 n--;
+    31:         }
+    32: }
+    33: 
+    34:         
+    35: void LCD_Write(unsigned char value,int rs)
+    36: {
+    37:         data = value; 
+    38:         RS = rs;                                //if rs=0; command is sent to LCD otherwise data to be displayed is sent
+    39:         EN = 1; 
+    40:         delay_ms(1); 
+    41:         EN = 0;  
+    42: 
+    43: }
+    44: 
+    45: void LCD_clear(void)
+    46: {
+    47:         LCD_Write(0x01,0);                //this clears LCD
+    48: }
+    49: 
+    50: void LCD_goto(unsigned char row,unsigned char column)
+    51: {
+    52:         if(row==1){
+    53:                 LCD_Write(0x80+column,0);        //
+    54:         }
+    55:         else if(row==2){
+    56:                 LCD_Write(0xC0+column,0);
+    57:         }
+    58: }
+    59: 
+    60: void LCD_num(int n)
+    61: {
+    62:         
+    63:         
+    64:     if(n<=9)
+    65:     {
+    66:                 LCD_Write(48,1);
+    67:             LCD_Write(48+n,1);
+    68:          }
+    69:          else if(n<=99)
+    70:          {
+    71:                  LCD_Write((n/10)+48,1);
+    72:                  LCD_Write((n%10)+48,1);
+    73:         }
+    74:         else if(n<=999)
+    75:         {
+    76:                 LCD_Write((n/100)+48,1);
+    77:                 LCD_Write(((n%100)/10)+48,1);
+    78:                 LCD_Write((n%10)+48,1);
+    79:         }
+    80: }
+    81: 
+    82: void initLCD(void)
+    83: {
+    84:         //PORT configuration
+    85:         TRISB = 0x00;
+    86:         TRISD=0x00;
+    87:         //////////////////
+    88:         
+    89:         LCD_Write(0x38,0);    
+    90:         delay_ms(1);
+    91:         LCD_Write(0x0c,0);    //dispaly on , cursor blinking
+    92:         delay_ms(1);
+    93:         LCD_Write(0x01,0);    // clear dispaly screen
+    94:         
+    95:         
+    96:         delay_ms(1);
+    97:         LCD_Write(0x06,0);
+    98: //        LCD_Write(0x0F,0);                //blinking cursor
+    99:         delay_ms(1);
+   100:         LCD_clear();
+   101:         LCD_goto(1,0);
+   102:         
+   103:         LCD_Write('C',1);delay_ms(100);LCD_Write('l',1);delay_ms(100);
+   104:         LCD_Write('o',1);delay_ms(100);LCD_Write('c',1);delay_ms(100);
+   105:         LCD_Write('k',1);delay_ms(100);
+   106:         
+   107: 
+   108:         
+   109:         
+   110: }
+   111: 
+   112: 
+   113: void main(void)
+   114: {
+   115:         initLCD();
+   116: 
+   117:         
+   118:         while(1)
+   119:         {
+   120: LCD_goto(2,0);
+   121: LCD_num(hour);
+   122: LCD_goto(2,2);
+   123:         LCD_Write(':',1);delay_ms(100);
+   124: LCD_goto(2,3);
+   125: LCD_num(min);
+   126: LCD_goto(2,5);
+   127:         LCD_Write(':',1);delay_ms(100);
+   128:                 LCD_goto(2,6);
+   129:         LCD_num(sec);
+   130:                 sec++;
+   131:         
+   132:                 delay_ms(500);
+   133:                 if(sec==10){
+   134:                         sec=00;
+   135:                         min++;
+   136:                 if (min==10)
+   137:         {min=0;
+   138: hour++;
+   139: }
+   140: 
+   141: }
+   142: 
+   143: 
+   144: 
+   145: 
+   146:         }
+   147: }

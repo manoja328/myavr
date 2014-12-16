@@ -1,0 +1,13 @@
+     1: #define _LEGACY_HEADERS
+     2: #include <htc.h>
+     3: __CONFIG(HS & WDTDIS & PWRTEN & BORDIS & LVPDIS);
+     4: 
+     5: void main(void)
+     6: {
+     7: //char b=0x23;
+     8: TRISB=0X00;
+     9: PORTB=0X00;
+    10: while(1){
+    11: RB0=1;
+    12: }
+    13: }

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1358536907 source:c:\users\manoj\desktop\yes\usbsend - readdata\lsusb.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"usb.h"
+
+1284854208 c:\users\manoj\desktop\yes\usbsend - readdata\usb.h
+	<stdlib.h>
+	<windows.h>
+	<pshpack1.h>
+	<poppack.h>
+

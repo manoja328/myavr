@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1341039953 source:c:\users\manoj\desktop\libusb-win32-bin-1.2.4.0\examples\list\lsusb.c
+	<stdio.h>
+	<stdlib.h>
+	"usb.h"
+
+1284854208 c:\users\manoj\desktop\libusb-win32-bin-1.2.4.0\examples\usb.h
+	<stdlib.h>
+	<windows.h>
+	<pshpack1.h>
+	<poppack.h>
+
+1284854208 c:\users\manoj\desktop\libusb-win32-bin-1.2.4.0\examples\list\usb.h
+	<stdlib.h>
+	<windows.h>
+	<pshpack1.h>
+	<poppack.h>
+
+1341040138 source:d:\amydesktop\new\anek\libusb-win32-bin-1.2.4.0\examples\list\lsusb.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"usb.h"
+
+1284854208 d:\amydesktop\new\anek\libusb-win32-bin-1.2.4.0\examples\list\usb.h
+	<stdlib.h>
+	<windows.h>
+	<pshpack1.h>
+	<poppack.h>
+
+1357371520 source:c:\users\manoj\desktop\yes\usbsend\lsusb.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"usb.h"
+
+1284854208 c:\users\manoj\desktop\yes\usbsend\usb.h
+	<stdlib.h>
+	<windows.h>
+	<pshpack1.h>
+	<poppack.h>
+
