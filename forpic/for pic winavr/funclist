@@ -1,0 +1,10 @@
+___awdiv: CODE, 1292 0 118
+_LCD_clear: CODE, 1039 0 13
+_LCD_goto: CODE, 1101 0 43
+___awmod: CODE, 1190 0 102
+_main: CODE, 1410 0 199
+_LCD_num: CODE, 1817 0 231
+_delay_ms: CODE, 1144 0 46
+_LCD_Write: CODE, 1072 0 29
+_initLCD: CODE, 1609 0 208
+Total: 989

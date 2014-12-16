@@ -1,0 +1,584 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"19 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _INDF `Vuc  1 e@0 ]
+"20 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR0 `Vuc  1 e@1 ]
+"21 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PCL `Vuc  1 e@2 ]
+"22 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _STATUS `Vuc  1 e@3 ]
+"23 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _FSR `Vuc  1 e@4 ]
+"24 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PORTA `Vuc  1 e@5 ]
+"25 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PORTB `Vuc  1 e@6 ]
+"26 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PORTC `Vuc  1 e@7 ]
+"28 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PORTD `Vuc  1 e@8 ]
+"29 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PORTE `Vuc  1 e@9 ]
+"31 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PCLATH `Vuc  1 e@10 ]
+"32 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _INTCON `Vuc  1 e@11 ]
+"33 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PIR1 `Vuc  1 e@12 ]
+"34 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PIR2 `Vuc  1 e@13 ]
+"35 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR1L `Vuc  1 e@14 ]
+"36 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR1H `Vuc  1 e@15 ]
+"37 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T1CON `Vuc  1 e@16 ]
+"38 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR2 `Vuc  1 e@17 ]
+"39 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T2CON `Vuc  1 e@18 ]
+"40 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPBUF `Vuc  1 e@19 ]
+"41 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPCON `Vuc  1 e@20 ]
+"42 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCPR1L `Vuc  1 e@21 ]
+"43 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCPR1H `Vuc  1 e@22 ]
+"44 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1CON `Vuc  1 e@23 ]
+"45 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RCSTA `Vuc  1 e@24 ]
+"46 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TXREG `Vuc  1 e@25 ]
+"47 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RCREG `Vuc  1 e@26 ]
+"48 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCPR2L `Vuc  1 e@27 ]
+"49 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCPR2H `Vuc  1 e@28 ]
+"50 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2CON `Vuc  1 e@29 ]
+"51 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADRESH `Vuc  1 e@30 ]
+"52 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADCON0 `Vuc  1 e@31 ]
+"55 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _OPTION `Vuc  1 e@129 ]
+"56 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISA `Vuc  1 e@133 ]
+"57 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB `Vuc  1 e@134 ]
+"58 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC `Vuc  1 e@135 ]
+"60 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD `Vuc  1 e@136 ]
+"61 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISE `Vuc  1 e@137 ]
+"63 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PIE1 `Vuc  1 e@140 ]
+"64 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PIE2 `Vuc  1 e@141 ]
+"65 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PCON `Vuc  1 e@142 ]
+"66 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPCON2 `Vuc  1 e@145 ]
+"67 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PR2 `Vuc  1 e@146 ]
+"68 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPADD `Vuc  1 e@147 ]
+"69 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPSTAT `Vuc  1 e@148 ]
+"70 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TXSTA `Vuc  1 e@152 ]
+"71 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SPBRG `Vuc  1 e@153 ]
+"72 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CMCON `Vuc  1 e@156 ]
+"73 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVRCON `Vuc  1 e@157 ]
+"74 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADRESL `Vuc  1 e@158 ]
+"75 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADCON1 `Vuc  1 e@159 ]
+"78 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEDATA `Vuc  1 e@268 ]
+"79 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEADR `Vuc  1 e@269 ]
+"81 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEADRL `Vuc  1 e@269 ]
+"82 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEDATH `Vuc  1 e@270 ]
+"83 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEADRH `Vuc  1 e@271 ]
+"86 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EECON1 `Vuc  1 e@396 ]
+"87 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EECON2 `Vuc  1 e@397 ]
+"90 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _IRP `Vb  1 e@31 ]
+"91 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RP1 `Vb  1 e@30 ]
+"92 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RP0 `Vb  1 e@29 ]
+"93 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TO `Vb  1 e@28 ]
+"94 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PD `Vb  1 e@27 ]
+"95 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ZERO `Vb  1 e@26 ]
+"96 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _DC `Vb  1 e@25 ]
+"97 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CARRY `Vb  1 e@24 ]
+"100 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RA5 `Vb  1 e@45 ]
+"101 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RA4 `Vb  1 e@44 ]
+"102 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RA3 `Vb  1 e@43 ]
+"103 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RA2 `Vb  1 e@42 ]
+"104 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RA1 `Vb  1 e@41 ]
+"105 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RA0 `Vb  1 e@40 ]
+"108 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB7 `Vb  1 e@55 ]
+"109 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB6 `Vb  1 e@54 ]
+"110 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB5 `Vb  1 e@53 ]
+"111 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB4 `Vb  1 e@52 ]
+"112 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB3 `Vb  1 e@51 ]
+"113 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB2 `Vb  1 e@50 ]
+"114 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB1 `Vb  1 e@49 ]
+"115 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RB0 `Vb  1 e@48 ]
+"118 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC7 `Vb  1 e@63 ]
+"119 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC6 `Vb  1 e@62 ]
+"120 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC5 `Vb  1 e@61 ]
+"121 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC4 `Vb  1 e@60 ]
+"122 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC3 `Vb  1 e@59 ]
+"123 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC2 `Vb  1 e@58 ]
+"124 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC1 `Vb  1 e@57 ]
+"125 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RC0 `Vb  1 e@56 ]
+"129 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD7 `Vb  1 e@71 ]
+"130 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD6 `Vb  1 e@70 ]
+"131 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD5 `Vb  1 e@69 ]
+"132 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD4 `Vb  1 e@68 ]
+"133 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD3 `Vb  1 e@67 ]
+"134 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD2 `Vb  1 e@66 ]
+"135 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD1 `Vb  1 e@65 ]
+"136 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD0 `Vb  1 e@64 ]
+"139 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RE2 `Vb  1 e@74 ]
+"140 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RE1 `Vb  1 e@73 ]
+"141 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RE0 `Vb  1 e@72 ]
+"145 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _GIE `Vb  1 e@95 ]
+"146 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PEIE `Vb  1 e@94 ]
+"147 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T0IE `Vb  1 e@93 ]
+"148 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _INTE `Vb  1 e@92 ]
+"149 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RBIE `Vb  1 e@91 ]
+"150 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T0IF `Vb  1 e@90 ]
+"151 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _INTF `Vb  1 e@89 ]
+"152 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RBIF `Vb  1 e@88 ]
+"154 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR0IE `Vb  1 e@93 ]
+"155 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR0IF `Vb  1 e@90 ]
+"159 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PSPIF `Vb  1 e@103 ]
+"161 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADIF `Vb  1 e@102 ]
+"162 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RCIF `Vb  1 e@101 ]
+"163 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TXIF `Vb  1 e@100 ]
+"164 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPIF `Vb  1 e@99 ]
+"165 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1IF `Vb  1 e@98 ]
+"166 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR2IF `Vb  1 e@97 ]
+"167 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR1IF `Vb  1 e@96 ]
+"170 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CMIF `Vb  1 e@110 ]
+"171 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEIF `Vb  1 e@108 ]
+"172 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _BCLIF `Vb  1 e@107 ]
+"173 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2IF `Vb  1 e@104 ]
+"176 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T1CKPS1 `Vb  1 e@133 ]
+"177 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T1CKPS0 `Vb  1 e@132 ]
+"178 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T1OSCEN `Vb  1 e@131 ]
+"179 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T1SYNC `Vb  1 e@130 ]
+"180 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR1CS `Vb  1 e@129 ]
+"181 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR1ON `Vb  1 e@128 ]
+"184 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TOUTPS3 `Vb  1 e@150 ]
+"185 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TOUTPS2 `Vb  1 e@149 ]
+"186 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TOUTPS1 `Vb  1 e@148 ]
+"187 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TOUTPS0 `Vb  1 e@147 ]
+"188 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR2ON `Vb  1 e@146 ]
+"189 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T2CKPS1 `Vb  1 e@145 ]
+"190 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T2CKPS0 `Vb  1 e@144 ]
+"193 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _WCOL `Vb  1 e@167 ]
+"194 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPOV `Vb  1 e@166 ]
+"195 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPEN `Vb  1 e@165 ]
+"196 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CKP `Vb  1 e@164 ]
+"197 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPM3 `Vb  1 e@163 ]
+"198 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPM2 `Vb  1 e@162 ]
+"199 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPM1 `Vb  1 e@161 ]
+"200 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPM0 `Vb  1 e@160 ]
+"203 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1X `Vb  1 e@189 ]
+"204 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1Y `Vb  1 e@188 ]
+"205 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1M3 `Vb  1 e@187 ]
+"206 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1M2 `Vb  1 e@186 ]
+"207 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1M1 `Vb  1 e@185 ]
+"208 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1M0 `Vb  1 e@184 ]
+"211 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SPEN `Vb  1 e@199 ]
+"212 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RX9 `Vb  1 e@198 ]
+"213 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SREN `Vb  1 e@197 ]
+"214 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CREN `Vb  1 e@196 ]
+"215 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADDEN `Vb  1 e@195 ]
+"216 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _FERR `Vb  1 e@194 ]
+"217 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _OERR `Vb  1 e@193 ]
+"218 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RX9D `Vb  1 e@192 ]
+"221 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2X `Vb  1 e@237 ]
+"222 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2Y `Vb  1 e@236 ]
+"223 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2M3 `Vb  1 e@235 ]
+"224 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2M2 `Vb  1 e@234 ]
+"225 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2M1 `Vb  1 e@233 ]
+"226 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2M0 `Vb  1 e@232 ]
+"229 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADCS1 `Vb  1 e@255 ]
+"230 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADCS0 `Vb  1 e@254 ]
+"231 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CHS2 `Vb  1 e@253 ]
+"232 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CHS1 `Vb  1 e@252 ]
+"233 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CHS0 `Vb  1 e@251 ]
+"234 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADGO `Vb  1 e@250 ]
+"236 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _GODONE `Vb  1 e@250 ]
+"237 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADON `Vb  1 e@248 ]
+"240 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RBPU `Vb  1 e@1039 ]
+"241 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _INTEDG `Vb  1 e@1038 ]
+"242 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T0CS `Vb  1 e@1037 ]
+"243 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _T0SE `Vb  1 e@1036 ]
+"244 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PSA `Vb  1 e@1035 ]
+"245 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PS2 `Vb  1 e@1034 ]
+"246 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PS1 `Vb  1 e@1033 ]
+"247 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PS0 `Vb  1 e@1032 ]
+"250 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISA5 `Vb  1 e@1069 ]
+"251 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISA4 `Vb  1 e@1068 ]
+"252 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISA3 `Vb  1 e@1067 ]
+"253 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISA2 `Vb  1 e@1066 ]
+"254 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISA1 `Vb  1 e@1065 ]
+"255 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISA0 `Vb  1 e@1064 ]
+"258 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB7 `Vb  1 e@1079 ]
+"259 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB6 `Vb  1 e@1078 ]
+"260 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB5 `Vb  1 e@1077 ]
+"261 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB4 `Vb  1 e@1076 ]
+"262 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB3 `Vb  1 e@1075 ]
+"263 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB2 `Vb  1 e@1074 ]
+"264 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB1 `Vb  1 e@1073 ]
+"265 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISB0 `Vb  1 e@1072 ]
+"268 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC7 `Vb  1 e@1087 ]
+"269 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC6 `Vb  1 e@1086 ]
+"270 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC5 `Vb  1 e@1085 ]
+"271 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC4 `Vb  1 e@1084 ]
+"272 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC3 `Vb  1 e@1083 ]
+"273 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC2 `Vb  1 e@1082 ]
+"274 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC1 `Vb  1 e@1081 ]
+"275 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISC0 `Vb  1 e@1080 ]
+"279 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD7 `Vb  1 e@1095 ]
+"280 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD6 `Vb  1 e@1094 ]
+"281 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD5 `Vb  1 e@1093 ]
+"282 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD4 `Vb  1 e@1092 ]
+"283 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD3 `Vb  1 e@1091 ]
+"284 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD2 `Vb  1 e@1090 ]
+"285 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD1 `Vb  1 e@1089 ]
+"286 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISD0 `Vb  1 e@1088 ]
+"289 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _IBF `Vb  1 e@1103 ]
+"290 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _OBF `Vb  1 e@1102 ]
+"291 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _IBOV `Vb  1 e@1101 ]
+"292 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PSPMODE `Vb  1 e@1100 ]
+"294 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISE2 `Vb  1 e@1098 ]
+"295 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISE1 `Vb  1 e@1097 ]
+"296 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRISE0 `Vb  1 e@1096 ]
+"301 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PSPIE `Vb  1 e@1127 ]
+"303 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADIE `Vb  1 e@1126 ]
+"304 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RCIE `Vb  1 e@1125 ]
+"305 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TXIE `Vb  1 e@1124 ]
+"306 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SSPIE `Vb  1 e@1123 ]
+"307 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP1IE `Vb  1 e@1122 ]
+"308 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR2IE `Vb  1 e@1121 ]
+"309 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TMR1IE `Vb  1 e@1120 ]
+"312 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CMIE `Vb  1 e@1134 ]
+"313 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEIE `Vb  1 e@1132 ]
+"314 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _BCLIE `Vb  1 e@1131 ]
+"315 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CCP2IE `Vb  1 e@1128 ]
+"318 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _POR `Vb  1 e@1137 ]
+"319 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _BOR `Vb  1 e@1136 ]
+"322 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _GCEN `Vb  1 e@1167 ]
+"323 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ACKSTAT `Vb  1 e@1166 ]
+"324 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ACKDT `Vb  1 e@1165 ]
+"325 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ACKEN `Vb  1 e@1164 ]
+"326 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RCEN `Vb  1 e@1163 ]
+"327 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PEN `Vb  1 e@1162 ]
+"328 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RSEN `Vb  1 e@1161 ]
+"329 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SEN `Vb  1 e@1160 ]
+"332 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SMP `Vb  1 e@1191 ]
+"333 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CKE `Vb  1 e@1190 ]
+"334 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _DA `Vb  1 e@1189 ]
+"335 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _STOP `Vb  1 e@1188 ]
+"336 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _START `Vb  1 e@1187 ]
+"337 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RW `Vb  1 e@1186 ]
+"338 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _UA `Vb  1 e@1185 ]
+"339 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _BF `Vb  1 e@1184 ]
+"352 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CSRC `Vb  1 e@1223 ]
+"353 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TX9 `Vb  1 e@1222 ]
+"354 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TXEN `Vb  1 e@1221 ]
+"355 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _SYNC `Vb  1 e@1220 ]
+"356 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _BRGH `Vb  1 e@1218 ]
+"357 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TRMT `Vb  1 e@1217 ]
+"358 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _TX9D `Vb  1 e@1216 ]
+"361 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _C2OUT `Vb  1 e@1255 ]
+"362 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _C1OUT `Vb  1 e@1254 ]
+"363 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _C2INV `Vb  1 e@1253 ]
+"364 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _C1INV `Vb  1 e@1252 ]
+"365 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CIS `Vb  1 e@1251 ]
+"366 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CM2 `Vb  1 e@1250 ]
+"367 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CM1 `Vb  1 e@1249 ]
+"368 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CM0 `Vb  1 e@1248 ]
+"371 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVREN `Vb  1 e@1263 ]
+"372 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVROE `Vb  1 e@1262 ]
+"373 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVRR `Vb  1 e@1261 ]
+"374 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVR3 `Vb  1 e@1259 ]
+"375 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVR2 `Vb  1 e@1258 ]
+"376 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVR1 `Vb  1 e@1257 ]
+"377 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _CVR0 `Vb  1 e@1256 ]
+"380 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADFM `Vb  1 e@1279 ]
+"381 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _ADCS2 `Vb  1 e@1278 ]
+"382 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PCFG3 `Vb  1 e@1275 ]
+"383 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PCFG2 `Vb  1 e@1274 ]
+"384 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PCFG1 `Vb  1 e@1273 ]
+"385 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _PCFG0 `Vb  1 e@1272 ]
+"388 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _EEPGD `Vb  1 e@3175 ]
+"389 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _WRERR `Vb  1 e@3171 ]
+"390 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _WREN `Vb  1 e@3170 ]
+"391 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _WR `Vb  1 e@3169 ]
+"392 C:\Program Files\HI-TECH Software\PICC\9.83\include\legacy/pic168xa.h
+[v _RD `Vb  1 e@3168 ]
+[p mainexit ]
+"3 main.c
+[; 	psect config,class=CONFIG,delta=2 ;#
+[; 	dw 0x3FFE & 0x3FFB & 0x3FF7 & 0x3FBF & 0x3F7F ;#
+"6
+[v _main `(v  1 ef ]
+{
+[e :U _main ]
+[f ]
+"8
+[e = _TRISB -> -> 0 `i `uc ]
+"9
+[e = _PORTB -> -> 0 `i `uc ]
+"10
+[e :U 3 ]
+{
+"11
+[e = _RB0 -> -> 1 `i `b ]
+"12
+}
+[e :U 2 ]
+"10
+[e $U 3  ]
+[e :U 4 ]
+"13
+[e :UE 1 ]
+}

@@ -1,0 +1,85 @@
+   1               		.file	"main.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+  15               	.Ltext0:
+  16               	.global	SPI_SlaveInit
+  18               	SPI_SlaveInit:
+  19               	.LFB6:
+  20               	.LM1:
+  21               	/* prologue: function */
+  22               	/* frame size = 0 */
+  23               	.LM2:
+  24 0000 80E1      		ldi r24,lo8(16)
+  25 0002 87BB      		out 55-32,r24
+  26               	.LM3:
+  27 0004 80E4      		ldi r24,lo8(64)
+  28 0006 8DB9      		out 45-32,r24
+  29               	/* epilogue start */
+  30               	.LM4:
+  31 0008 0895      		ret
+  32               	.LFE6:
+  34               	.global	SPI_SlaveReceive
+  36               	SPI_SlaveReceive:
+  37               	.LFB7:
+  38               	.LM5:
+  39               	/* prologue: function */
+  40               	/* frame size = 0 */
+  41               	.L4:
+  42               	.LM6:
+  43 000a 779B      		sbis 46-32,7
+  44 000c 00C0      		rjmp .L4
+  45               	.LM7:
+  46 000e 8FB1      		in r24,47-32
+  47               	/* epilogue start */
+  48               	.LM8:
+  49 0010 0895      		ret
+  50               	.LFE7:
+  52               	.global	main
+  54               	main:
+  55               	.LFB8:
+  56               	.LM9:
+  57               	/* prologue: function */
+  58               	/* frame size = 0 */
+  59               	.LBB6:
+  60               	.LBB7:
+  61               	.LM10:
+  62 0012 80E1      		ldi r24,lo8(16)
+  63 0014 87BB      		out 55-32,r24
+  64               	.LM11:
+  65 0016 80E4      		ldi r24,lo8(64)
+  66 0018 8DB9      		out 45-32,r24
+  67               	.LBE7:
+  68               	.LBE6:
+  69               	.LM12:
+  70 001a BA98      		cbi 55-32,2
+  71               	.LVL0:
+  72               	.L12:
+  73               	.LBB8:
+  74               	.LBB9:
+  75               	.LM13:
+  76 001c 779B      		sbis 46-32,7
+  77 001e 00C0      		rjmp .L12
+  78               	.LM14:
+  79 0020 8FB1      		in r24,47-32
+  80 0022 00C0      		rjmp .L12
+  81               	.LBE9:
+  82               	.LBE8:
+  83               	.LFE8:
+ 125               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:2      *ABS*:0000003f __SREG__
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:3      *ABS*:0000003e __SP_H__
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:4      *ABS*:0000003d __SP_L__
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:5      *ABS*:00000034 __CCP__
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:18     .text:00000000 SPI_SlaveInit
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:36     .text:0000000a SPI_SlaveReceive
+C:\Users\manoj\AppData\Local\Temp/ccQhbZaS.s:54     .text:00000012 main
+
+NO UNDEFINED SYMBOLS
