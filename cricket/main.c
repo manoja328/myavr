@@ -32,14 +32,7 @@ ISR (TIMER0_OVF_vect)
 	highbyte = accumulator >> 24 ;
 	OCR1A = 128 + sineTable[highbyte]  ;  
 	
-	// generate time base for MAIN
-	// 62 counts is about 1 mSec
-	count--;
-	if (0 == count )
-	{
-		count=countMS;
-		time++;    //in mSec
-	}  
+
 } 
  
 int main(void)
@@ -59,13 +52,13 @@ int main(void)
    // increment = 2^32*256*Fout/16e6 = 68719 * Fout
    // Fout=1000 Hz, increment= 68719000 
   // increment = 68719000L ;
-  increment = 68719000L ;
+  increment = 47897143L ;
 
    // init the time counter
    time=0;
 
    // timer 0 runs at full rate
-  TCCR1B = _BV(WGM12) | _BV(CS10); 
+  TCCR1B = (1<<WGM12) | (1<<CS10); 
    
    //turn on timer 0 overflow ISR
       TCCR0|=(1<<CS00);
@@ -79,23 +72,17 @@ int main(void)
    while(1) 
    {  
    
-     if (time==50) 
-     {
-	     // start a new 50 mSec cycle 
-         time=0;
-		 
-         // phase lock the sine generator DDS
-         accumulator = 0 ;
+ 
+
          
          //turn on pwm 
 		 // turn on fast PWM and OC0A output
 		 // at full clock rate, toggle OC0A (pin B3) 
    		 // 16 microsec per PWM cycle sample time
-		  TCCR1A = _BV(COM1A1) | _BV(WGM10); 	  
-     } //if 
+		  TCCR1A = (1<<COM1A1) | _BV(1<<WGM10); 	  
+  
 
-	 // after 15 milliSec turn off PWM
-     if (time==15) TCCR1A = 0 ;
+
      
 	 
    } // } while 
